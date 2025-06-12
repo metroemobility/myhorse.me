@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #24292e;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0366d6;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My GitHub Page</h1>
+        <p>A simple website hosted on GitHub Pages</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a basic GitHub Pages site. You can customize it with your own content.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of my projects:</p>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple script to display current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
