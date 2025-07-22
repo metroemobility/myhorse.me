@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "me.myhorse.app",
-    "sha256_cert_fingerprints": ["36:16:EC:42:83:98:E3:87:AD:8E:7D:B6:49:22:AC:DD:15:64:CB:B5:01:D2:E2:F0:47:E5:02:51:1F:33:DB:5E"]
+    "sha256_cert_fingerprints": ["82:12:8C:A2:F3:81:1B:D0:92:7C:EF:5C:86:B9:B8:8E:04:40:08:9C:C3:F8:E0:C2:B3:5F:00:E5:39:DC:E1:5B"]
   }
 }]
